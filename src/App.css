@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
   min-height: 100vh;
+  background-color: black;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
 }
 
-.App-link {
-  color: #61dafb;
+
+.container {
+  
+  width: 1000px;
+  height: 700px;
+  padding: 1em;
+  display: flex;
+  gap: 1.7em;
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.col-left{
+  flex: 2;
+  border: 2px solid white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.7em;
+  border: none;
+
+}
+.row-row1{
+  border: 2px solid white;
+  border-radius: 10px;
+  flex: 1.5;
+  background-color: white;
+  
+  
+  
+
+
+}
+  
+.row-row1:hover {
+  transform: translateX(-5px);
+  box-shadow: 0 0 15px 5px rgba(247, 166, 4, 0.5);
+}
+
+
+
+
+  
+  
+.row-row2{
+  border: 2px solid orange;
+  border-radius: 15px;
+  flex: 1;
+  background-color: orange;
+  
+}
+.row-row2:hover {
+  transform: translateX(-5px);
+  box-shadow: 0 0 15px 5px rgba(255, 255, 255,0.5);
+}
+.row-row3{
+  border: 2px solid white;
+  border-radius: 15px;
+  flex: 1;
+  background-color: white;
+}
+
+.row-row3:hover {
+  transform: translateX(-5px);
+  box-shadow: 0 0 15px 5px rgba(247, 166, 4, 0.5);
+}
+.col-right{
+  flex: 1;
+  border: 2px solid orange;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  background-color: orange;
+}
+
+.col-right:hover {
+  transform: translateX(-5px);
+  box-shadow: 0 0 15px 5px rgba(255, 255, 255,0.5);
 }
