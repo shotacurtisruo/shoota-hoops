@@ -9,7 +9,8 @@
   box-sizing: border-box;
 }
 body{
-  min-height: 100vh;
+  min-height: 120vh;
+  min-width: 150vh;
   background-color: black;
   display: flex;
   align-items: center;
@@ -18,6 +19,9 @@ body{
 
 }
 h1{
+  text-align: center;
+}
+h2{
   text-align: center;
 }
 p{
@@ -96,6 +100,8 @@ p{
   flex: 1;
   background-color: orange;
   animation: slideRowRow2 4.3s forwards;
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 13px;
   
 }
 .row-row2:hover {
