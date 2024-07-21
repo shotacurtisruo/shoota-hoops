@@ -1,5 +1,7 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Indie+Flower&family=Rubik+Bubbles&display=swap');
 
 * {
   margin: 0;
@@ -15,7 +17,18 @@ body{
 
 
 }
-
+h1{
+  text-align: center;
+}
+p{
+  text-align: center;
+  padding: 0px 20px 20px 20px;
+}
+#important{
+  font-size: 20px;
+  color: red;
+  font-weight: bolder;
+}
 
 .container {
   
@@ -27,7 +40,14 @@ body{
 
 
 }
-
+ @keyframes slideRowRow1{
+  from{
+    transform: translateX(-100%);
+  }
+  to{
+    transform: translateX(0);
+  }
+ }
 
 .col-left{
   flex: 2;
@@ -37,6 +57,7 @@ body{
   flex-direction: column;
   gap: 1.7em;
   border: none;
+  
 
 }
 .row-row1{
@@ -44,8 +65,9 @@ body{
   border-radius: 10px;
   flex: 1.5;
   background-color: white;
-  
-  
+  animation: slideRowRow1 3.0s forwards;
+  font-family: "Gloria Hallelujah", cursive;
+ 
   
 
 
@@ -59,13 +81,21 @@ body{
 
 
 
-  
+@keyframes slideRowRow2{
+  from{
+    transform: translateX(-100%);
+  }
+  to{
+    transform: translateX(0);
+  }
+ }
   
 .row-row2{
   border: 2px solid orange;
   border-radius: 15px;
   flex: 1;
   background-color: orange;
+  animation: slideRowRow2 4.3s forwards;
   
 }
 .row-row2:hover {
@@ -77,7 +107,19 @@ body{
   border-radius: 15px;
   flex: 1;
   background-color: white;
+  animation: slideRowRow3 5.3s forwards;
+  font-family: "Gloria Hallelujah", cursive;
+
 }
+
+@keyframes slideRowRow3{
+  from{
+    transform: translateX(-100%);
+  }
+  to{
+    transform: translateX(0);
+  }
+ }
 
 .row-row3:hover {
   transform: translateX(-5px);
@@ -91,8 +133,21 @@ body{
   flex-direction: column;
   gap: 2em;
   background-color: orange;
-}
+  animation: slideColRight 4.3s forwards;
+  font-family: "Indie Flower", cursive;
+  font-size: 17px;
+  text-align: center;
+  
 
+}
+@keyframes slideColRight{
+  from{
+    transform: translateX(200%);
+  }
+  to{
+    transform: translateX(0);
+  }
+ }
 .col-right:hover {
   transform: translateX(-5px);
   box-shadow: 0 0 15px 5px rgba(255, 255, 255,0.5);
