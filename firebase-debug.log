@@ -1,0 +1,17 @@
+[debug] [2024-07-31T19:13:10.666Z] ----------------------------------------------------------------------
+[debug] [2024-07-31T19:13:10.667Z] Command:       /usr/local/bin/firebase /Users/shotaruo/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase deploy
+[debug] [2024-07-31T19:13:10.667Z] CLI Version:   13.11.4
+[debug] [2024-07-31T19:13:10.668Z] Platform:      darwin
+[debug] [2024-07-31T19:13:10.668Z] Node Version:  v18.5.0
+[debug] [2024-07-31T19:13:10.671Z] Time:          Wed Jul 31 2024 12:13:10 GMT-0700 (Pacific Daylight Time)
+[debug] [2024-07-31T19:13:10.671Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-31T19:13:10.676Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-07-31T19:13:10.828Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-07-31T19:13:10.830Z] > authorizing via signed-in user (scruo@ucdavis.edu)
+[debug] [2024-07-31T19:13:10.830Z] [iam] checking project shoota-hoops for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-07-31T19:13:10.832Z] > refreshing access token with scopes: []
+[debug] [2024-07-31T19:13:10.833Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-07-31T19:13:10.834Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-07-31T19:13:20.476Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-07-31T19:13:20.483Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
