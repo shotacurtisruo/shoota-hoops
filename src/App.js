@@ -49,7 +49,7 @@ function App() {
             
             
           </p>
-          <p id='important'>Please read through carefully! - NO LONGER IN SERVICE</p>
+          <p id='important'>NO LONGER IN SERVICE</p>
         </div>
         <div className='row-row2'>
           <p>
