@@ -43,13 +43,13 @@ function App() {
             <br></br>
             Want to improve your skills?
             <br></br>
-            Your at the right place! 
+            We will be back in summer of 2025!
             
             
             
             
           </p>
-          <p id='important'>NO LONGER IN SERVICE</p>
+          
         </div>
         <div className='row-row2'>
           <p>
